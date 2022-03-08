@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(172, 224, 224);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family:  'Akaya Telivigala', cursive;
+    color:black
+}
+
+h2{
+    color: thistle;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#container{
+    display: grid;
+    grid-row: 50%, 50%;
+    background-color: rgb(8, 2, 39);
+    margin: 5%;
+    padding: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+#player{
+    width: 20em;
+    text-align: center;
+    border: black;
+    height: 3em;
+}
+
+.mybuttons{
+    width: 20em;
+    height: 2em;
+    border-radius: 20%;
+}
+
+#demo{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    padding: auto;
+}
+
+.players{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(61, 4, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5%;
+}
+
+.playernames{
+    color: rgb(182, 231, 159);
+    text-align: center;
+}
+
+
+#result{
+    display: grid;
+    grid-row: 10% 60% 30%;
+    background-color: rgb(13, 46, 3);  
+    justify-content: center;
+    margin: 5%;
+    padding: 3%;
+}
+
+#m{
+    text-align: center;
+    width: 30em;
+}
+
+#loser_container{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    padding: 1em;
+}
+
+.losers{
+    height: 5em;
+    width: 17em;
+    background-color:ivory;
+    margin: 5%;
+    margin-left: 7%;
+}
+#winner_container{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    padding: 1em;
+}
+.winner{
+    background-color:rgb(66, 58, 58);
+    height: 5em;
+    width: 20em;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+    font-family: monospace;
+    color: red;
+    text-align: center;
+}
+
+.winnername{
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(245, 242, 239);
+}
+
+#solution{
+    width: 30em;
+    height: 3em;
+}
+
+#solution:hover{
+    background-color: rgb(3, 12, 22);
+    color:whitesmoke;
+}
